@@ -1,5 +1,5 @@
 #kind of greedy approach
-#the line that causes the infinite loop has to be before the first repeat of instruction is
+#the line that causes the infinite loop has to be before where the first repeat of instruction is.
 #loop over all jmps and nops before the first repeat of instruction and reverse them to see
 #if it we can loop to EOF
 
