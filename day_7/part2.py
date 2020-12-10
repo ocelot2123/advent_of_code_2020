@@ -14,7 +14,6 @@ for line in content:
     
     for bag, count in each_contain.items():
         try:
-            int(count)
             if not weighted_dag_bag.get(mbag):
                 weighted_dag_bag[mbag] = {bag:int(count)}
             else:
